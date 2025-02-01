@@ -55,6 +55,7 @@
         font-optical-sizing: auto;
         font-style: normal;
       }
+
       .adlam-font {
         font-family: "ADLaM Display", serif;
         font-weight: 400;
@@ -62,11 +63,12 @@
       }
     </style>
   </head>
+
   <body class="max-w-7xl mx-auto">
     <!-- header section  -->
 
     <header>
-      <nav class="bg-nav px-10 md:px-16 py-6">
+      <nav class="bg-nav px-4 md:px-16 py-6">
         <div class="navbar justify-between">
           <!-- logo section  -->
           <div class="">
@@ -129,7 +131,7 @@
           </div>
           <!-- dropdown menu ber  -->
           <div>
-            <div class="dropdown lg:hidden">
+            <div class="dropdown dropdown-end lg:hidden">
               <div tabindex="0" role="button" class="btn btn-ghost btn-circle">
                 <svg
                   class="w-6 h-6"
@@ -160,23 +162,21 @@
     <main>
       <!-- banner section  -->
 
-      <section class="px-16">
+      <section class="px-4 mt-28 md:px-16">
         <div
-          class="hero min-h-screen mb-20"
+          class="hero min-h-96 min-w-40 mb-20"
           style="
-            background-image: url(https://img.daisyui.com/images/stock/photo-1507358522600-9f71e620c44e.webp);
+            background-image: url(./assets/cat-big.png);
           "
         >
-          <div class="hero-overlay bg-opacity-60"></div>
-          <div class="hero-content text-neutral-content text-center">
-            <div class="max-w-md">
-              <h1 class="mb-5 text-5xl font-bold">Hello there</h1>
+          
+          <div class="hero flex float-left">
+            <div>
+              <h1 class="mb-5 adlam-font md:text-5xl">Pamper Your Pet,<br> Because They Deserve <br>the Bes</h1>
               <p class="mb-5">
-                Provident cupiditate voluptatem et in. Quaerat fugiat ut
-                assumenda excepturi exercitationem quasi. In deleniti eaque aut
-                repudiandae et a id nisi.
+                Discover a world of treats, toys, and essentials handpicked for <br> your furry friends. Shop now and make tails wag with joy!
               </p>
-              <button class="btn btn-primary">Get Started</button>
+              <button class="btn bg-accent py-2 px-7">Get Started</button>
             </div>
           </div>
         </div>
@@ -184,8 +184,8 @@
 
       <!-- Browse By Categories section  -->
 
-      <section class="md:px-16">
-        <h2 class="adlam-font text-3xl mb-12">Browse By Categories</h2>
+      <section class="px-4 md:px-16">
+        <h2 class="adlam-font text-3xl mb-12 px-4">Browse By Categories</h2>
         <div class="grid grid-cols-2 md:grid-cols-6 gap-4 mx-4">
           <div class="bg-card-bg text-center rounded-lg">
             <div
@@ -254,8 +254,7 @@
 
       <!-- Trending Pet Products section  -->
 
-      <section class="mt-16 md:px-16 pb-28 bg-secondary-bg mb-32">
-
+      <section class="mt-16 px-4 md:px-16 pb-28 bg-secondary-bg mb-28">
         <!-- trending heading  -->
 
         <h2 class="pb-12 pt-28 adlam-font text-3xl">Trending Pet Products</h2>
@@ -269,7 +268,8 @@
 
           <div
             class="bg-card-bg rounded-xl col-span-2 row-span-3 bg-no-repeat bg-right-bottom z-10"
-            style="background-image: url(./assets/cute-pet-small.png)"
+            style="background-image: url(./assets/cute-pet-small.png);
+            height:400px"
           >
             <div class="pl-8 pt-12">
               <h2 class="text-3xl adlam-font">T- Shirt For Dogs</h2>
@@ -283,7 +283,7 @@
           <!-- grid card 2 -->
 
           <div
-            class="flex items-center justify-center gap-5 bg-white shadow-lg rounded-xl p-4"
+            class="flex items-center justify-center gap-5 bg-white shadow-lg rounded-xl p-4 border-2"
           >
             <div
               class="w-20 h-20 flex items-center justify-center bg-secondary-bg rounded-xl"
@@ -311,12 +311,12 @@
           <!-- gird card 3 -->
 
           <div
-            class="flex items-center justify-center gap-5 bg-white shadow-lg rounded-xl p-4"
+            class="flex items-center justify-center gap-5 bg-white shadow-lg rounded-xl p-4 border-2"
           >
             <div
               class="w-20 h-20 flex items-center justify-center bg-secondary-bg rounded-xl"
             >
-              <img src="./assets/dog-cartoon.png" alt="" />
+              <img src="./assets/fish-cartoon.png" alt="" />
             </div>
             <div>
               <div class="flex items-center gap-2">
@@ -339,12 +339,12 @@
           <!-- gird card 4 -->
 
           <div
-            class="flex items-center justify-center gap-5 bg-white shadow-lg rounded-xl p-4"
+            class="flex items-center justify-center gap-5 bg-white shadow-lg rounded-xl p-4 border-2"
           >
             <div
               class="w-20 h-20 flex items-center justify-center bg-secondary-bg rounded-xl"
             >
-              <img src="./assets/dog-cartoon.png" alt="" />
+              <img src="./assets/bird-cartoon.png" alt="" />
             </div>
             <div>
               <div class="flex items-center gap-2">
@@ -367,12 +367,12 @@
           <!-- grid card 5 -->
 
           <div
-            class="flex items-center justify-center gap-5 bg-white shadow-lg rounded-xl p-4"
+            class="flex items-center justify-center gap-5 bg-white shadow-lg rounded-xl p-4 border-2"
           >
             <div
               class="w-20 h-20 flex items-center justify-center bg-secondary-bg rounded-xl"
             >
-              <img src="./assets/dog-cartoon.png" alt="" />
+              <img src="./assets/rabbit-cartoon.png" alt="" />
             </div>
             <div>
               <div class="flex items-center gap-2">
@@ -395,12 +395,12 @@
           <!-- grid card 6 -->
 
           <div
-            class="flex items-center justify-center gap-5 bg-white shadow-lg rounded-xl p-4"
+            class="flex items-center justify-center gap-5 bg-white shadow-lg rounded-xl p-4 border-2"
           >
             <div
               class="w-20 h-20 flex items-center justify-center bg-secondary-bg rounded-xl"
             >
-              <img src="./assets/dog-cartoon.png" alt="" />
+              <img src="./assets/bird-cartoon.png" alt="" />
             </div>
             <div>
               <div class="flex items-center gap-2">
@@ -423,12 +423,12 @@
           <!-- grid card 7 -->
 
           <div
-            class="flex items-center justify-center gap-5 bg-white shadow-lg rounded-xl p-4"
+            class="flex items-center justify-center gap-5 bg-white shadow-lg rounded-xl p-4 border-2"
           >
             <div
               class="w-20 h-20 flex items-center justify-center bg-secondary-bg rounded-xl"
             >
-              <img src="./assets/dog-cartoon.png" alt="" />
+              <img src="./assets/pet-couch.png" alt="" />
             </div>
             <div>
               <div class="flex items-center gap-2">
@@ -451,12 +451,12 @@
           <!-- grid card 8 -->
 
           <div
-            class="flex items-center justify-center gap-5 bg-white shadow-lg rounded-xl p-4"
+            class="flex items-center justify-center gap-5 bg-white shadow-lg rounded-xl p-4 border-2"
           >
             <div
               class="w-20 h-20 flex items-center justify-center bg-secondary-bg rounded-xl"
             >
-              <img src="./assets/dog-cartoon.png" alt="" />
+              <img src="./assets/fish-cartoon.png" alt="" />
             </div>
             <div>
               <div class="flex items-center gap-2">
@@ -479,12 +479,12 @@
           <!-- grid card 9 -->
 
           <div
-            class="flex items-center justify-center gap-5 bg-white shadow-lg rounded-xl p-4"
+            class="flex items-center justify-center gap-5 bg-white shadow-lg rounded-xl p-4 border-2"
           >
             <div
               class="w-20 h-20 flex items-center justify-center bg-secondary-bg rounded-xl"
             >
-              <img src="./assets/dog-cartoon.png" alt="" />
+              <img src="./assets/pet-couch.png" alt="" />
             </div>
             <div>
               <div class="flex items-center gap-2">
@@ -507,12 +507,12 @@
           <!-- grid card 10 -->
 
           <div
-            class="flex items-center justify-center gap-5 bg-white shadow-lg rounded-xl p-4 hidden md:inline-flex"
+            class="flex items-center justify-center gap-5 bg-white shadow-lg rounded-xl p-4 hidden md:inline-flex border-2"
           >
             <div
               class="w-20 h-20 flex items-center justify-center bg-secondary-bg rounded-xl"
             >
-              <img src="./assets/dog-cartoon.png" alt="" />
+              <img src="./assets/rabbit-cartoon.png" alt="" />
             </div>
             <div>
               <div class="flex items-center gap-2">
@@ -534,7 +534,52 @@
         </div>
       </section>
 
+      <!-- Everyday low Price section -->
 
+      <section class="px-4 md:px-16">
+        <div>
+          <h1 class="adlam-font text-4xl mb-12">Everyday low Price</h1>
+          <div class="grid grid-cols-1 md:grid-cols-3 gap-4">
+            <div
+              class="bg-gradient-to-r from-cyan-500 to-blue-500 md:col-span-2 rounded-xl"
+            >
+              <div
+                class="bg-no-repeat bg-right bg-bottom z-10"
+                style="
+                  background-image: url(./assets/cute-dog-mid.png);
+                  min-height: 500px;
+
+                "
+              >
+                <div class="md:pl-28 md:py-20">
+                  <p class="text-xl sora-font hidden md:inline-flex">
+                    Under Price
+                  </p>
+                  <h2 class="text-3xl adlam-font mt-5">Pet Grooming Mitt</h2>
+                  <p class="text-2xl text-white hidden md:inline-flex">(Easy Hair Removal)</p>
+                  <p class="my-5 adlam-font text-6xl">$7.99</p>
+                  <button class="btn sora-font px-7 hidden md:inline-flex">Shop Now</button>
+                </div>
+              </div>
+            </div>
+            <div class="bg-gradient-to-r from-[#FFF9F4] to-[#F9DF8A] rounded-xl ">
+              <div
+                class="bg-no-repeat bg-right-bottom z-10"
+                style="background-image: url(./assets/cute-pet-mid.png);
+                height: 500px;
+                "
+              >
+                <div class="pl-6 pt-5">
+                  <h2 class="text-3xl adlam-font">T-Shirt for Dogs</h2>
+                  <p class="my-5 adlam-font text-6xl">
+                    $7.99
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
     </main>
     <!-- footer section  -->
     <footer></footer>
